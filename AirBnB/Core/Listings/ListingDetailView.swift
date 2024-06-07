@@ -85,9 +85,12 @@ struct ListingDetailView: View {
                    
                 }
             }
-//            .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: .leading)
             .padding()
+            
+            
             Divider()
+            
+//            bedrooms view
             VStack(alignment: .leading, spacing: 16){
                 Text("Where you'll sleep")
                     .font(.headline)
@@ -110,9 +113,27 @@ struct ListingDetailView: View {
             }.padding()
             Divider()
             
-            VStack(spacing: 16){
+            
+//            ammenities
+            VStack(alignment: .leading,spacing: 16){
                 Text("What this place offers")
+                    .font(.headline)
+                ForEach(0 ..< 5){ feature in
+                    HStack{
+                        Image(systemName: "wifi" )
+                            .frame(width:32)
+                        Text("Wifi").font(.footnote)
+                        Spacer()
+                    }
+                }
+            }.padding()
+            
+            Divider()
+            
+            VStack(alignment: .leading,spacing: 16){
+                
             }
+            
         }
     }
 }
