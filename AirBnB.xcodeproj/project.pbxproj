@@ -16,6 +16,7 @@
 		145D40ED2C133EE400AE733B /* SearchAndFilterBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145D40EC2C133EE400AE733B /* SearchAndFilterBar.swift */; };
 		145D40EF2C13471400AE733B /* ListingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145D40EE2C13471400AE733B /* ListingDetailView.swift */; };
 		145D40F22C1347B900AE733B /* ListingImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145D40F12C1347B900AE733B /* ListingImageCarouselView.swift */; };
+		145D40F42C13F58900AE733B /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145D40F32C13F58900AE733B /* DestinationSearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		145D40EC2C133EE400AE733B /* SearchAndFilterBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAndFilterBar.swift; sourceTree = "<group>"; };
 		145D40EE2C13471400AE733B /* ListingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingDetailView.swift; sourceTree = "<group>"; };
 		145D40F12C1347B900AE733B /* ListingImageCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingImageCarouselView.swift; sourceTree = "<group>"; };
+		145D40F32C13F58900AE733B /* DestinationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 			children = (
 				145D40E82C1338D500AE733B /* ExploreView.swift */,
 				145D40EC2C133EE400AE733B /* SearchAndFilterBar.swift */,
+				145D40F32C13F58900AE733B /* DestinationSearchView.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				145D40F22C1347B900AE733B /* ListingImageCarouselView.swift in Sources */,
+				145D40F42C13F58900AE733B /* DestinationSearchView.swift in Sources */,
 				145D40D12C1337BE00AE733B /* ContentView.swift in Sources */,
 				145D40EB2C133A5A00AE733B /* ListingView.swift in Sources */,
 				145D40E92C1338D500AE733B /* ExploreView.swift in Sources */,
