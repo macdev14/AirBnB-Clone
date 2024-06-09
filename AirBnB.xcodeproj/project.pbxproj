@@ -19,6 +19,8 @@
 		145D40F42C13F58900AE733B /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145D40F32C13F58900AE733B /* DestinationSearchView.swift */; };
 		145D40F72C16519200AE733B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145D40F62C16519200AE733B /* ProfileView.swift */; };
 		145D40F92C16538E00AE733B /* ProfileOptionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145D40F82C16538E00AE733B /* ProfileOptionRowView.swift */; };
+		145D40FB2C1654F000AE733B /* WishlistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145D40FA2C1654F000AE733B /* WishlistsView.swift */; };
+		145D40FD2C1656CA00AE733B /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145D40FC2C1656CA00AE733B /* MainTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		145D40F32C13F58900AE733B /* DestinationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
 		145D40F62C16519200AE733B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		145D40F82C16538E00AE733B /* ProfileOptionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileOptionRowView.swift; sourceTree = "<group>"; };
+		145D40FA2C1654F000AE733B /* WishlistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistsView.swift; sourceTree = "<group>"; };
+		145D40FC2C1656CA00AE733B /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +180,7 @@
 		145D40E62C13388500AE733B /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				145D40FC2C1656CA00AE733B /* MainTabView.swift */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -183,6 +188,7 @@
 		145D40E72C13388C00AE733B /* Wishlists */ = {
 			isa = PBXGroup;
 			children = (
+				145D40FA2C1654F000AE733B /* WishlistsView.swift */,
 			);
 			path = Wishlists;
 			sourceTree = "<group>";
@@ -271,10 +277,12 @@
 				145D40F42C13F58900AE733B /* DestinationSearchView.swift in Sources */,
 				145D40D12C1337BE00AE733B /* ContentView.swift in Sources */,
 				145D40EB2C133A5A00AE733B /* ListingView.swift in Sources */,
+				145D40FB2C1654F000AE733B /* WishlistsView.swift in Sources */,
 				145D40E92C1338D500AE733B /* ExploreView.swift in Sources */,
 				145D40ED2C133EE400AE733B /* SearchAndFilterBar.swift in Sources */,
 				145D40EF2C13471400AE733B /* ListingDetailView.swift in Sources */,
 				145D40CF2C1337BE00AE733B /* AirBnBApp.swift in Sources */,
+				145D40FD2C1656CA00AE733B /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
