@@ -15,20 +15,21 @@ struct ListingImageCarouselView: View {
      "listing-4",
    
     ]
+    
+    let listing: Listing
     var body: some View {
         TabView{
-            ForEach(images, id:\.self){
+            ForEach(listing.imageURLs, id:\.self){
                 image in
                 Image(image).resizable()
                     .scaledToFill()
             }
         }
-        
        
             .tabViewStyle(.page)
     }
 }
 
 #Preview {
-    ListingImageCarouselView()
+    ListingImageCarouselView(listing: DeveloperPreview.shared.listings[0])
 }
