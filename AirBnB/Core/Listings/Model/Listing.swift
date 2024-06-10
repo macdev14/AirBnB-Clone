@@ -25,3 +25,27 @@ struct Listing : Identifiable, Codable {
     let title : String
     let rating : Double
 }
+
+enum ListingFeatures: Int, Codable, Identifiable, Hashable {
+    case selfCheckin
+    case superHost
+    
+    var id: Int {return self.rawValue}
+}
+
+
+
+
+enum ListingAmenities: Int, Codable, Identifiable, Hashable {
+    
+    case pool
+    case kitchen
+    case wifi
+    case Laundry
+    case tv
+    case alarmSystem
+    case office
+    case balcony
+    var id: Int {return self.rawValue}
+    
+}
